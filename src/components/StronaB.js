@@ -1,9 +1,9 @@
 import React from "react";
-import styled from "styled-components";
+import styles from "./css/StronaB.css";
 
 function StronaB() {
-  return (
-    <Wrapper>
+    return (
+        <div className="stronab">
       <span>Strona B</span>
       <section>
         <p>
@@ -17,23 +17,8 @@ function StronaB() {
           laoreet tristique purus, eu rutrum mi consequat ut.
         </p>
       </section>
-    </Wrapper>
+    </div>
   );
-}
-
-const Wrapper = styled.div`
-  min-height: calc(100vh - 50px);
-  background-color: #00bfff;
-  padding: 20px;
-
-  span {
-    color: #fff;
-    font-size: 40px;
-  }
-
-  section {
-    color: #fff;
-  }
-`;
+};
 
 export default StronaB;

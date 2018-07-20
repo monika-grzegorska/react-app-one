@@ -1,9 +1,9 @@
 import React from "react";
-import styled from "styled-components";
+import styles from "./css/StronaC.css";
 
 function StronaC() {
-  return (
-    <Wrapper>
+    return (
+        <div className="stronac">
       <span>Strona C</span>
       <section>
         <p>
@@ -19,24 +19,9 @@ function StronaC() {
           elementum lacus, nec porta elit. Sed dignissim feugiat vehicula. Nunc
           et commodo orci.
         </p>
-      </section>
-    </Wrapper>
+          </section>
+    </div >
   );
-}
-
-const Wrapper = styled.div`
-  min-height: calc(100vh - 50px);
-  background-color: #f76565;
-  padding: 20px;
-
-  span {
-    color: #fff;
-    font-size: 40px;
-  }
-
-  section {
-    color: #fff;
-  }
-`;
+};
 
 export default StronaC;

@@ -1,10 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styles from "./css/StronaA.css";
 
 function StronaA() {
-  return (
-    <Wrapper>
-      <span>Strona A</span>
+    return (
+        <div className="stronaa">
+          <span className="title">Strona A</span>
       <section>
         <p>
                STRONA A 
@@ -21,23 +21,8 @@ function StronaA() {
           ut placerat molestie. Ut tristique orci a leo tempus condimentum.
         </p>
       </section>
-    </Wrapper>
+    </div>
   );
-}
-
-const Wrapper = styled.div`
-  min-height: calc(100vh - 50px);
-  background-color: #00d38a;
-  padding: 20px;
-
-  span {
-    color: #fff;
-    font-size: 40px;
-  }
-
-  section {
-    color: #fff;
-  }
-`;
+};
 
 export default StronaA;
