@@ -1,10 +1,12 @@
 import React from "react";
-import styled from "styled-components";
+import styles from "./css/Header.css";
 import { Link } from "react-router-dom";
 
 function Header() {
-  return (
-    <Wrapper>
+    return (
+        <div className="header">
+            <h1 className="title">Portal restauracyjny</h1>
+           <br/>
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -19,31 +21,7 @@ function Header() {
           <Link to="/StronaC">Strona C</Link>
         </li>
       </ul>
-    </Wrapper>
+    </div>
   );
-}
-
-const Wrapper = styled.div`
-  height: 50px;
-  display: flex;
-  align-items: center;
-  background-color: #f5f5f5;
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin-left: 20px;
-
-    a {
-      text-decoration: none;
-      font-size: 20px;
-      color: #333;
-    }
-  }
-`;
-
+};
 export default Header;
