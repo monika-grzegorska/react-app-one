@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <div className="header">
-            <h1 className="title">Portal restauracyjny</h1>
+            <h1 className="title">pizza pizza</h1>
            <br/>
       <ul>
         <li>
