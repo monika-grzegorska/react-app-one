@@ -1,21 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-function Second() {
+function StronaB() {
   return (
     <Wrapper>
-      <span>Second</span>
+      <span>Strona B</span>
       <section>
         <p>
-          Morbi sodales at enim sed porttitor. Vestibulum vitae magna consequat,
-          faucibus felis non, fermentum lorem. Vivamus viverra est justo.
-          Suspendisse lacus nisi, ornare gravida lorem sit amet, iaculis
-          vulputate elit. Vivamus non erat at nunc egestas sagittis eget ac
-          urna. Proin ac iaculis ante. Proin tincidunt ipsum eu pharetra
-          lobortis. Nam auctor fermentum turpis, facilisis iaculis odio
-          hendrerit ac. Pellentesque habitant morbi tristique senectus et netus
-          et malesuada fames ac turpis egestas. In hendrerit, dolor eu consequat
-          porttitor, ante nibh sodales libero, a finibus nisl diam ac tellus.
+          STRONA B
         </p>
         <p>
           Nulla ornare a dui pellentesque imperdiet. Fusce nec dolor semper,
@@ -44,4 +36,4 @@ const Wrapper = styled.div`
   }
 `;
 
-export default Second;
+export default StronaB;

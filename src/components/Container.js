@@ -4,9 +4,9 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Home from "./Home";
-import First from "./First";
-import Second from "./Second";
-import Third from "./Third";
+import StronaA from "./StronaA";
+import StronaB from "./StronaB";
+import StronaC from "./StronaC";
 
 function Container({ location }) {
   return (
@@ -20,9 +20,9 @@ function Container({ location }) {
           <section className="route-section">
             <Switch location={location}>
               <Route exact path="/" component={Home} />
-              <Route path="/first" component={First} />
-              <Route path="/second" component={Second} />
-              <Route path="/third" component={Third} />
+              <Route path="/StronaA" component={StronaA} />
+              <Route path="/StronaB" component={StronaB} />
+              <Route path="/StronaC" component={StronaC} />
             </Switch>
           </section>
         </CSSTransition>

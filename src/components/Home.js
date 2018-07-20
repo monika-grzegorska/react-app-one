@@ -4,9 +4,9 @@ import styled from "styled-components";
 function Home() {
   return (
     <Wrapper>
-      <div className="title">Welcome to Page Transition App!</div>
+      <div className="title"> WITAMY </div>
       <section>
-        <p>Click the links on header to change routes!</p>
+        <p> Wybierz strone ktora Cie interesuje </p>
       </section>
     </Wrapper>
   );

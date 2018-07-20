@@ -1,17 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-function Third() {
+function StronaC() {
   return (
     <Wrapper>
-      <span>Third</span>
+      <span>Strona C</span>
       <section>
         <p>
-          Curabitur eu feugiat magna, ut malesuada est. In sit amet placerat
-          erat, quis ornare augue. Proin mi nulla, pretium vel dictum vel,
-          ornare sed tellus. Phasellus congue placerat metus. Cras eleifend
-          justo quis hendrerit bibendum. Aliquam erat volutpat. Nulla sed neque
-          at ante iaculis mollis a id sem. Suspendisse potenti.
+          STRONA C
         </p>
         <p>
           Praesent eu lorem euismod, convallis nisl in, cursus metus. Cras dolor
@@ -43,4 +39,4 @@ const Wrapper = styled.div`
   }
 `;
 
-export default Third;
+export default StronaC;
