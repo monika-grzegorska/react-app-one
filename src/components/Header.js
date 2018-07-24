@@ -5,22 +5,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <div className="header">
-            <h1 className="title">pizza pizza</h1>
-           <br/>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/StronaA">Strona A</Link>
-        </li>
-        <li>
-          <Link to="/StronaB">Strona B</Link>
-        </li>
-        <li>
-          <Link to="/StronaC">Strona C</Link>
-        </li>
-      </ul>
+            <header className="title">pizza pizza</header>
     </div>
   );
 };

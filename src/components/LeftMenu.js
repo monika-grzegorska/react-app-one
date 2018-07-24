@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 function LeftMenu() {
     return (
-        <div className="leftmenu">
+        <nav className="leftmenu">
+            
             <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -18,8 +19,9 @@ function LeftMenu() {
                 <li>
                     <Link to="/StronaC">Strona C</Link>
                 </li>
-            </ul>
-        </div>
+                </ul>
+                
+        </nav>
     );
 };
 export default LeftMenu;
