@@ -11,9 +11,9 @@
     opacity: 1;
 }
 
-    .fade-exit.fade-exit-active {
-        opacity: 0.01;
-        transition: opacity 300ms ease-in;
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
     }
 
 div.transition-group {
@@ -25,4 +25,9 @@ section.route-section {
     width: 100%;
     top: 0;
     left: 0;
+}
+
+div.container{
+    flex:3;
+    padding:10px;
 }

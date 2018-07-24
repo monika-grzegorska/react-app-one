@@ -6,6 +6,7 @@ nav.leftmenu {
     background: #ccc;
     padding: 20px;
     width:25%;
+    display:flex;
 }
 
 nav.ul {

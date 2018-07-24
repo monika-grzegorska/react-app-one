@@ -10,9 +10,11 @@ import Container from "./components/Container";
 const App = () => (
   <Router>
         <div>
-             <Header />
+            <Header />
+            <div className="section-one">
              <LeftMenu />
              <Container />
+            </div>
             </div>
   </Router>
 );

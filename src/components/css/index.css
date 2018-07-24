@@ -2,9 +2,6 @@
     width: 100%;
 }
 
-div.leftmenu {
-    width: 25%;
-    position: relative;
-
+div.section-one{
+    display:flex;
 }
-
