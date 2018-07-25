@@ -4,7 +4,8 @@
     width: 100%;
     color: #808080;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 60px;
+    font-family:'Adobe Devanagari';
 }
 
 div.header {
@@ -14,23 +15,3 @@ div.header {
     align-items: center;
     background-color: #333;
 }
-/*nav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    border-top:solid;
-    display: table;
-    justify-content: center;
-    list-style: none;
-}
-
-li {
-    display: table-cell;
-    margin-left: 20px;
-    text-align:center;
-}
-a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;*/
-/*}*/

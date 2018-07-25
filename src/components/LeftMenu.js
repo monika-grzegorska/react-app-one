@@ -19,6 +19,9 @@ function LeftMenu() {
                 <li>
                     <Link to="/StronaC">Strona C</Link>
                 </li>
+                <li>
+                    <Link to="/List">Restauracje</Link>
+                </li>
                 </ul>
                 
         </nav>
