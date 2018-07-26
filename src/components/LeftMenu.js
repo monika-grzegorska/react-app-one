@@ -11,16 +11,16 @@ function LeftMenu() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/StronaA">Strona A</Link>
+                    <Link to="/StronaA">Polskie</Link>
                 </li>
                 <li>
-                    <Link to="/StronaB">Strona B</Link>
+                    <Link to="/StronaB">Włoskie</Link>
                 </li>
                 <li>
-                    <Link to="/StronaC">Strona C</Link>
+                    <Link to="/StronaC">Japońskie</Link>
                 </li>
                 <li>
-                    <Link to="/List">Restauracje</Link>
+                    <Link to="/List">Wszystkie</Link>
                 </li>
                 </ul>
                 

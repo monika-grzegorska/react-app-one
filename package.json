@@ -6,6 +6,8 @@
   "homepage": "https://codesandbox.io/s/new",
   "main": "src/index.js",
   "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.10",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-router": "4.2.0",
@@ -19,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lodash": "^3.10.0"
   }
 }

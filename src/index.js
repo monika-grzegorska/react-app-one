@@ -9,6 +9,7 @@ import LeftMenu from "./components/LeftMenu";
 import Container from "./components/Container";
 import List from "./components/List";
 
+_ = require('lodash')
 const App = () => (
   <Router>
         <div>

@@ -1,26 +1,17 @@
 import React from "react";
 import styles from "./css/StronaA.css";
+import { Switch, Route, withRouter } from "react-router-dom";
+import List from "./List";
 
-function StronaA() {
+function StronaA({location}) {
     return (
         <div className="stronaa">
-          <span className="title">Strona A</span>
-      <section>
-        <p>
-               STRONA A 
-        </p>
-        <p>
-          Fusce imperdiet suscipit posuere. Aliquam sed consectetur eros.
-          Praesent nec malesuada est. Quisque vel turpis viverra, condimentum
-          mauris at, imperdiet ex. Duis vitae velit vestibulum, bibendum justo
-          vitae, pellentesque velit. Morbi quis posuere ante. Nulla consequat
-          condimentum dolor, sed ullamcorper mi condimentum et. Sed vitae
-          efficitur metus. Donec vitae bibendum metus. Maecenas ultrices
-          hendrerit enim a porttitor. Mauris vitae ante vel metus fermentum
-          lacinia. In non placerat metus, vitae laoreet felis. Cras aliquet erat
-          ut placerat molestie. Ut tristique orci a leo tempus condimentum.
-        </p>
-      </section>
+          <span className="title">Jedzenie polskie</span>
+          <section className="route-section">
+              <Switch location={location}>
+                  <Route exact path="/List" component={List} />
+              </Switch>
+          </section>
     </div>
   );
 };
