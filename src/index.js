@@ -7,9 +7,8 @@ import styles from "./components/css/index.css";
 import Header from "./components/Header";
 import LeftMenu from "./components/LeftMenu";
 import Container from "./components/Container";
-import List from "./components/List";
+import Restaurants from "./components/Restaurants";
 
-_ = require('lodash')
 const App = () => (
   <Router>
         <div>
@@ -22,4 +21,5 @@ const App = () => (
   </Router>
 );
 
+// Render the main component into the dom
 render(<App />, document.getElementById("root"));

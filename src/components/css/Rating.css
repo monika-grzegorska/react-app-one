@@ -1,0 +1,10 @@
+﻿.star {
+    width: 25px;
+    height: 25px;
+    background: url('../../img/yellow-star.png') no-repeat;
+    background-size: 25px 25px;
+}
+
+.gray {
+    filter: grayscale(100%);
+}

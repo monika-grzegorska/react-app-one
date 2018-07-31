@@ -1,0 +1,14 @@
+﻿.restaurants {
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 6px 1px 1px 0px;
+}
+
+.restaurant-li {
+    list-style-type: none;
+}
+.restaurants-listitems{
+    margin: 0px;
+    padding: 0px;
+}
