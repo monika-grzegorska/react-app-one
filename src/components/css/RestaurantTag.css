@@ -1,71 +1,73 @@
-﻿/*ALL*/
+/*SIZE*/
+/*FLEX*/
+/*PADDING AND MARGIN*/
+/*BORDER*/
+/*BOX*/
+/*ALL*/
 .restaurant-tag {
-    display: flex;
-    justify-content: space-between;
-    background-color: #bdbdbd;
-    margin: 10px 5px 10px 5px;
-    padding: 10px 5px 5px 5px;
-}
+  display: flex;
+  justify-content: space-between;
+  background-color: #bdbdbd;
+  padding: 10px 5px 5px 5px;
+  margin: 10px 5px 10px 5px; }
 
 /*LEFT SIDE*/
 .restaurant-logo {
-    width: 130px;
-    height: 130px;
-    margin-left: 5px;
-}
+  width: 130px;
+  height: 130px;
+  margin-left: 5px; }
+
 .restaurant-left {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 130px;
-    justify-content: flex-start;
-}
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 130px;
+  justify-content: flex-start; }
 
 .restaurant-name {
-    font-size: 30px;
-    font-weight:bold;
-    margin: 30px 0px 0px 10px;
-    
-}
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0;
+  margin: 30px 0px 0px 10px; }
 
 .restaurant-type {
-    font-size: 15px;
-    font-style: italic;
-    margin: 10px 0px 0px 10px;
-}
-.restaurant-rating{
-    display:flex;
-    flex-direction: row;
-}
+  font-size: 15px;
+  font-style: italic;
+  padding: 0;
+  margin: 10px 0px 0px 10px; }
+
+.restaurant-rating {
+  display: flex;
+  flex-direction: row; }
 
 /*RIGHT SIDE*/
 .restaurant-right {
-    display: flex;
-    flex-wrap: wrap;
-    height: 130px;
-    justify-content: center;
-    margin-top:30px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  height: 130px;
+  justify-content: center;
+  margin-top: 30px; }
+
 .restaurant-price {
-    display: flex;
-    flex-direction: column;
-}
+  display: flex;
+  flex-direction: column; }
+
 .restaurant-delivery {
-    display: flex;
-    flex-direction: column;
-}
+  display: flex;
+  flex-direction: column; }
+
 .restaurant-distance {
-    display: flex;
-    flex-direction: column;
-}
-.restaurant-right-title{
-    text-transform: uppercase;
-    font-size: 10px;
-    margin: 25px 25px 0px 0px;
-}
+  display: flex;
+  flex-direction: column; }
+
+.restaurant-right-title {
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 0;
+  margin: 25px 25px 0px 0px; }
+
 .restaurant-right-props {
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    margin-right: 25px;
-}
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 25px; }

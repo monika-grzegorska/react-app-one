@@ -1,43 +1,44 @@
-﻿
+/*SIZE*/
+/*FLEX*/
+/*PADDING AND MARGIN*/
+/*BORDER*/
+/*BOX*/
 nav.leftmenu {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 20px;
-    width: 15%;
-    height:100%;
-    display: block;
-    text-align: center;
-}
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 20px;
+  margin: 0px;
+  width: 15%;
+  height: 100%;
+  display: block;
+  text-align: center; }
 
-nav.leftmenu li{
-    display: block;
-    position: center;
-    text-align: center;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: white;
-    background-color: grey;
-    padding: 10px 15px;
-    margin: 6px 1px 1px 0px;
-    border: 3px solid gray;
-    border-radius: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 0px 2px 3px gray;
-    -moz-box-shadow: 0px 2px 3px gray;
-    -webkit-box-shadow: 0px 2px 3px gray;
-    list-style-type: none;
-}
+nav.leftmenu li {
+  display: block;
+  position: center;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  background-color: grey;
+  padding: 10px 15px;
+  margin: 6px 1px 1px 0px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0px 2px 3px gray;
+  -moz-box-shadow: 0px 2px 3px gray;
+  -webkit-box-shadow: 0px 2px 3px gray;
+  list-style-type: none; }
 
 ul a:hover {
-    color: white;
-    background: black;
-    border: 1px solid gray;
-}
+  color: white;
+  background: black;
+  border: 1px solid gray; }
 
 a {
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-}
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none; }

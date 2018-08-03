@@ -1,0 +1,14 @@
+﻿@import 'mixin';
+
+.restaurants {
+    text-align: left;
+    font-size: 20px;
+    @include pam(10px 15px,6px 1px 1px 0px);
+}
+
+.restaurant-li {
+    list-style-type: none;
+}
+.restaurants-listitems {
+    @include pam(0px,0px);
+}

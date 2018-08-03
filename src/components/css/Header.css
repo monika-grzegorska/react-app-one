@@ -1,17 +1,14 @@
-﻿header.title {
-    text-align: center;
-    height: 100px;
-    width: 100%;
-    color: #808080;
-    margin-top: 30px;
-    font-size: 60px;
-    font-family:'Adobe Devanagari';
-}
-
-div.header {
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: #333;
-}
+/*SIZE*/
+/*FLEX*/
+/*PADDING AND MARGIN*/
+/*BORDER*/
+/*BOX*/
+.header {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-image: url("../../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: left; }

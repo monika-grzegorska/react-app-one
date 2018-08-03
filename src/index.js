@@ -10,8 +10,8 @@ import Container from "./components/Container";
 import Restaurants from "./components/Restaurants";
 
 const App = () => (
-  <Router>
-        <div>
+    <Router>
+        <div className="index-all">
             <Header />
             <div className="section">
              <LeftMenu />

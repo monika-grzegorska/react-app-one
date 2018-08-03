@@ -1,0 +1,73 @@
+﻿@import 'mixin';
+@import 'variables';
+
+/*ALL*/
+.restaurant-tag {
+    display: $display;
+    justify-content: space-between;
+    background-color: #bdbdbd;
+@include pam(10px 5px 5px 5px,10px 5px 10px 5px); 
+
+}
+
+/*LEFT SIDE*/
+.restaurant-logo {
+@include size(130px,130px);
+    margin-left: 5px;
+}
+.restaurant-left {
+    display: $display;
+    flex-wrap: $flex-wrap;
+    flex-direction: column;
+    height: 130px;
+    justify-content: flex-start;
+}
+
+.restaurant-name {
+    font-size: 30px;
+    font-weight: bold;
+    @include pam(0,30px 0px 0px 10px);
+}
+
+.restaurant-type {
+    font-size: 15px;
+    font-style: italic;
+    @include pam(0,10px 0px 0px 10px);
+
+}
+.restaurant-rating{
+    display:$display;
+    flex-direction: row;
+}
+
+/*RIGHT SIDE*/
+.restaurant-right {
+    display: $display;
+    flex-wrap: $flex-wrap;
+    height: 130px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.restaurant-price {
+    display: $display;
+    flex-direction: column;
+}
+.restaurant-delivery {
+    display: $display;
+    flex-direction: column;
+}
+.restaurant-distance {
+    display: $display;
+    flex-direction: column;
+}
+.restaurant-right-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    @include pam(0,25px 25px 0px 0px);
+}
+.restaurant-right-props {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 25px;
+}

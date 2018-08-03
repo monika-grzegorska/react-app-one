@@ -1,4 +1,14 @@
-﻿
-div.section{
-    display:flex;
-}
+/*SIZE*/
+/*FLEX*/
+/*PADDING AND MARGIN*/
+/*BORDER*/
+/*BOX*/
+.index-all {
+  resize: horizontal;
+  width: 100%;
+  height: 200%;
+  background: url("../../img/background.png") no-repeat 100% 100%;
+  margin-bottom: 0px; }
+
+.section {
+  display: flex; }

@@ -1,0 +1,35 @@
+﻿/*SIZE*/
+
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+/*FLEX*/
+
+@mixin flex($property) {
+    -webkit-flex: $property;
+    -ms-flex: $property;
+    flex: $property;
+}
+
+/*PADDING AND MARGIN*/
+
+@mixin pam ($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
+/*BORDER*/
+@mixin border($border, $border-radius, $moz, $webkit) {
+    border: $border;
+    border-radius: $border-radius;
+    -moz-border-radius: $moz;
+    -webkit-border-radius: $webkit;
+}
+
+/*BOX*/
+@mixin box($box-shadow,$moz,$webkit) {
+    box-shadow: $box-shadow;
+    -moz-box-shadow: $moz;
+    -webkit-box-shadow: $webkit;
+} 

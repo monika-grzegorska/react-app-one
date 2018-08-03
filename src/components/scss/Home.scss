@@ -1,0 +1,31 @@
+﻿@import 'mixin';
+@import 'variables';
+
+article {
+    min-height: calc(100vh - 50px);
+    display: $display;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: $background-color $background-size;        
+    @include flex(3);
+    @include pam(0,0);
+    @include size(100%,100%);
+    float: right;
+
+   div{
+    font-size: 70px;
+    font-weight: bold;
+    color: #CC003F;
+    font-family: Verdana, Verdana, sans-serif;
+}
+   section {
+    @include size(300px, 100px);
+    background-image: url('../../img/lets.png');
+}
+}
+
+
+
+ 

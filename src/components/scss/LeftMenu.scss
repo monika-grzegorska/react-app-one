@@ -1,0 +1,35 @@
+﻿@import 'mixin';
+
+nav.leftmenu {
+@include flex(1);
+@include pam(20px,0px);
+@include size(15%,100%);
+    display: block;
+    text-align: center;
+}
+
+nav.leftmenu li {
+    display: block;
+    position: center;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+@include pam(10px 15px,6px 1px 1px 0px);
+@include border (3px solid gray, 10px,5px,5px);
+@include box(0px 2px 3px gray,0px 2px 3px gray,0px 2px 3px gray);
+    list-style-type: none;
+}
+
+ul a:hover {
+    color: white;
+    background: black;
+    border: 1px solid gray;
+}
+
+a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}

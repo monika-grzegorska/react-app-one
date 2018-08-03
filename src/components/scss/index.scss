@@ -1,0 +1,14 @@
+﻿@import 'mixin';
+@import 'variables';
+
+
+.index-all {
+    resize: horizontal;
+    @include size(100%,200%);
+    background: url('../../img/background.png') no-repeat $background-size;
+    margin-bottom: 0px;
+}
+
+.section{
+    display: $display;
+}
