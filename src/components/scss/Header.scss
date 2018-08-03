@@ -3,9 +3,9 @@
 
 .header {
     @include size(100%,110px);
-    display: $display;
+    @include display(flex,center);
     @include pam(0,0);
     background-image: url('../../img/logo.png');
-    background-repeat: no-repeat; 
-    background-position:left;
+    background-repeat: no-repeat;
+    background-position: left;
 }

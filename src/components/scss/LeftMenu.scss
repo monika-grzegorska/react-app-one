@@ -5,13 +5,11 @@
     @include flex(1);
     @include pam(20px,0px);
     @include size(15%,100%);
-    display: block;
-    text-align: center;
+    @include display(block,center);
 
     li {
-        display: block;
+        @include display(block,center);
         position: center;
-        text-align: center;
         font-size: 1.2em;
         text-decoration: none;
         background: $background-color;
@@ -27,7 +25,7 @@
         text-decoration: none;
 
         &:hover {
-            font-weight:bold;
+            font-weight: bold;
             background: lighter($background-color,2);
         }
     }

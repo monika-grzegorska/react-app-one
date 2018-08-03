@@ -6,15 +6,15 @@
     display: $display;
     justify-content: space-between;
     background: $color;
-@include pam(10px 5px 5px 5px,10px 5px 10px 5px); 
-
+    @include pam(10px 5px 5px 5px,10px 5px 10px 5px);
 }
 
 /*LEFT SIDE*/
 .restaurant-logo {
-@include size(130px,130px);
     margin-left: 5px;
+    @include size(130px,130px);
 }
+
 .restaurant-left {
     display: $display;
     flex-wrap: $flex-wrap;
@@ -33,10 +33,10 @@
     font-size: 15px;
     font-style: italic;
     @include pam(0,10px 0px 0px 10px);
-
 }
-.restaurant-rating{
-    display:$display;
+
+.restaurant-rating {
+    display: $display;
     flex-direction: row;
 }
 
@@ -47,25 +47,30 @@
     height: 130px;
     justify-content: center;
     margin-top: 30px;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 .restaurant-price {
     display: $display;
     flex-direction: column;
 }
+
 .restaurant-delivery {
     display: $display;
     flex-direction: column;
 }
+
 .restaurant-distance {
     display: $display;
     flex-direction: column;
 }
+
 .restaurant-right-title {
     text-transform: uppercase;
     font-size: 10px;
     @include pam(0,25px 25px 0px 0px);
 }
+
 .restaurant-right-props {
     text-align: center;
     font-weight: bold;

@@ -12,6 +12,12 @@
     flex: $property;
 }
 
+/*DISPLAY*/
+@mixin display($display,$text-align){
+    display: $display;
+    text-align: $text-align;
+}
+
 /*PADDING AND MARGIN*/
 
 @mixin pam ($padding, $margin) {
