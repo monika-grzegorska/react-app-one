@@ -1,5 +1,6 @@
 /*SIZE*/
 /*FLEX*/
+/*DISPLAY*/
 /*PADDING AND MARGIN*/
 /*BORDER*/
 /*BOX*/
@@ -13,9 +14,9 @@
 
 /*LEFT SIDE*/
 .restaurant-logo {
+  margin-left: 5px;
   width: 130px;
-  height: 130px;
-  margin-left: 5px; }
+  height: 130px; }
 
 .restaurant-left {
   display: flex;

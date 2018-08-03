@@ -5,7 +5,7 @@ function Home() {
 
     return (
         <article className="home">
-      <div className="title"> Welcome </div>
+      <div className="title"> Let's eat something </div>
       <section>
           <div className="subtitle"/>
               </section>

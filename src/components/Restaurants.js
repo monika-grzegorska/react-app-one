@@ -19,11 +19,17 @@ function Restaurants(input) {
             id: 3, photo: "https://cdn.pizzaportal.pl/20000239/logo/e04718c2fef2c41c72b6e4b431d16e26/logo.png",
             name: "Bistro Pado", type: "italian", minprice: "19 zł", delivery: "5 zł", distance: "2.5 km", rating: 4 
         },
+        {
+            id: 4, photo: "https://cdn.pizzaportal.pl/20000239/logo/e04718c2fef2c41c72b6e4b431d16e26/logo.png",
+            name: "Bistro Pado", type: "japanese", minprice: "19 zł", delivery: "5 zł", distance: "2.5 km", rating: 4
+        },
     ];
+    var restaurantsFiltered = restaurants;
+    if (params.foodType != 'all') {
+        restaurantsFiltered = _.filter(restaurants, { 'type': params.foodType });
+    } 
 
-    var restaurantsFiltered = _.filter(restaurants, { 'type': params.foodType });
-
-
+  
     //var filterFunction = function (inputArray, propertToFilterOn, valueToUeInFiltering) {
     //    var result = [];
     //    for (int i = 0; i < inputArray.length; i++){

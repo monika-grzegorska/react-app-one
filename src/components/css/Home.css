@@ -1,16 +1,16 @@
 /*SIZE*/
 /*FLEX*/
+/*DISPLAY*/
 /*PADDING AND MARGIN*/
 /*BORDER*/
 /*BOX*/
 article {
   min-height: calc(100vh - 50px);
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   background: rgba(255, 145, 48, 0.5) 100% 100%;
+  float: right;
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
@@ -18,13 +18,14 @@ article {
   margin: 0;
   width: 100%;
   height: 100%;
-  float: right; }
+  display: flex;
+  text-align: center; }
   article div {
     font-size: 70px;
     font-weight: bold;
-    color: #CC003F;
+    color: rgba(18, 140, 135, 0.4);
     font-family: Verdana, Verdana, sans-serif; }
   article section {
+    background-image: url("../../img/lets.png");
     width: 300px;
-    height: 100px;
-    background-image: url("../../img/lets.png"); }
+    height: 100px; }
