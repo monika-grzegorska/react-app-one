@@ -21,17 +21,17 @@ function RestaurantTag(input) {
                 {/*min price*/}
                 <div className="restaurant-price">
                     <div className="restaurant-right-title"> Cena minialna </div>
-                    <div className="restaurant-right-props">{restaurant.minprice} </div>
+                    <div className="restaurant-right-props">£ {restaurant.minPrice}</div>
                 </div>
                 {/* delivery*/}
                 <div className="restaurant-delivery">
                     <div className="restaurant-right-title"> Dostawa </div>
-                    <div className="restaurant-right-props">{restaurant.delivery}</div>
+                    <div className="restaurant-right-props">£ {restaurant.delivery}</div>
                 </div>
                 {/* distance*/}
                 <div className="restaurant-distance">
                     <div className="restaurant-right-title">Dystans </div>
-                    <div className="restaurant-right-props"> {restaurant.distance}</div>
+                    <div className="restaurant-right-props">{restaurant.distance} km</div>
                 </div>
             </div>
         </div>
