@@ -5,6 +5,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Home from "./Home";
 import Restaurants from "./Restaurants";
+import Menu from "./Menu";
 
 function Container({ location }) {
     return (
@@ -19,6 +20,7 @@ function Container({ location }) {
             <Switch location={location}>
               <Route exact path="/" component={Home} />
               <Route path="/Restaurants/:foodType" component={Restaurants} />
+              <Route path="/Menu/:mealsType" component={Menu} />
             </Switch>
           </section>
         </CSSTransition>

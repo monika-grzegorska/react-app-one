@@ -6,7 +6,6 @@ import RestaurantTag from "./RestaurantTag";
 class Restaurants extends React.Component {
 
     constructor(input) {
-        debugger;
         super(input);
         this.state = {
             restaurantListItems: null,
@@ -16,7 +15,6 @@ class Restaurants extends React.Component {
         fetch("http://localhost:56423/api/restaurants")
             .then(res => res.json())
             .then((restaurantsFiltered) => {
-                debugger;
                 if (this.state.foodType != 'all') {
                     restaurantsFiltered = _.filter(restaurantsFiltered, { 'type': this.state.foodType });
                 } 

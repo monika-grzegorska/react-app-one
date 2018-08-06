@@ -8,6 +8,8 @@ import Header from "./components/Header";
 import LeftMenu from "./components/LeftMenu";
 import Container from "./components/Container";
 import Restaurants from "./components/Restaurants";
+import MealMenu from "./components/MealMenu";
+import Menu from "./components/Menu";
 
 const App = () => (
     <Router>
@@ -17,6 +19,10 @@ const App = () => (
              <LeftMenu />
              <Container />
             </div>
+            <div className="section2">
+                <MealMenu />
+                <Menu />
+                </div>
             </div>
   </Router>
 );
