@@ -10,7 +10,7 @@ function MealMenu(input) {
             <ul>
 
                 <li>
-                    <Link to="/Menu/{menu.mealsType}">{menu.mealsType}</Link>
+                    <Link to="/Menu/*">lalala</Link>
                 </li>
             </ul>
         </nav>
