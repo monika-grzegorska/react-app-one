@@ -7,10 +7,10 @@
 /*ALL*/
 .menu-tag {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   background: rgba(18, 140, 135, 0.4);
-  padding: 10px 5px 5px 5px;
-  margin: 10px 5px 10px 5px; }
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px; }
 
 /*LEFT SIDE*/
 .menu-left {

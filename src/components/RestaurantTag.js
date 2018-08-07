@@ -1,9 +1,11 @@
 ﻿import React from "react";
 import styles from "./css/RestaurantTag.css";
 import Rating from "./Rating"
+import { Route } from 'react-router-dom'
 
 function RestaurantTag(input) {
     var restaurant = input.restaurant;
+
     return (
         <div className="restaurant-tag">
             {/*LEFT SIDE*/}

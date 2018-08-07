@@ -8,8 +8,8 @@ function MenuTag(input) {
         <div className="menu-tag">
             {/*LEFT SIDE*/}
             <div className="menu-left">
-                <div className="menu-mealname">{menu.mealname} </div>
-                <div className="menu-mealtype">{menu.mealtype} </div>
+                <div className="menu-mealname">{menu.mealName} </div>
+                <div className="menu-mealtype">{menu.mealType} </div>
                 <div className="menu-ingridiens"> {menu.ingridiens}</div>
             </div>
             {/*RIGHT SIDE*/}

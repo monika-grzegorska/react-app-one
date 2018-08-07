@@ -2,11 +2,13 @@
 import styles from "./css/Restaurants.css";
 import _ from "lodash";
 import RestaurantTag from "./RestaurantTag";
+import LeftMenu from "./LeftMenu";
 
 class Restaurants extends React.Component {
 
     constructor(input) {
         super(input);
+      //  this.onChange = this.onChange.bind(this);
         this.state = {
             restaurantListItems: null,
             foodType: input.match.params.foodType
@@ -15,7 +17,10 @@ class Restaurants extends React.Component {
         fetch("http://localhost:56423/api/restaurants")
             .then(res => res.json())
             .then((restaurantsFiltered) => {
-                if (this.state.foodType != 'all') {
+                debugger;
+                var ifFoodTypePresentAndNotEmpty = this.state.foodType != 'all' && this.state.foodType != null;
+
+                if (ifFoodTypePresentAndNotEmpty) {
                     restaurantsFiltered = _.filter(restaurantsFiltered, { 'type': this.state.foodType });
                 } 
 
@@ -36,8 +41,10 @@ class Restaurants extends React.Component {
        
     render(){
         return (
+            <div> <LeftMenu/> 
             <div className="restaurants">
                 <ul className="restaurants-listitems">{this.state.restaurantListItems}</ul>
+            </div>
             </div>
         );
     }

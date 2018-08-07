@@ -4,9 +4,9 @@
 /*ALL*/
 .menu-tag {
     display: $display;
-    justify-content: space-between;
+    justify-content:flex-end;
     background: $color;
-    @include pam(10px 5px 5px 5px,10px 5px 10px 5px);
+    @include pam(5px 5px 5px 5px,5px 5px 5px 5px);
 }
 
 /*LEFT SIDE*/
