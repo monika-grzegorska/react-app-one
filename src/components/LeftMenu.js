@@ -2,6 +2,9 @@
 import styles from "./css/LeftMenu.css";
 import { Link } from "react-router-dom";
 
+
+// Link - zapewnia dostepna navigacje wokol aplikacji
+// tutaj pozwala na nawigowanie do wybranych rodzajaw kuchni
 function LeftMenu() {
     return (
         <nav className="leftmenu">

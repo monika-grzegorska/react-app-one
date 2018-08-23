@@ -16,22 +16,32 @@ class Restaurants extends React.Component {
 
         fetch("http://localhost:56423/api/restaurants")
             .then(res => res.json())
-            .then((restaurantsFiltered) => {
-                debugger;
+            .then((restaurants) => {
+                // wprowadzamy zmienna pomocnicza ktora skraca kod
                 var ifFoodTypePresentAndNotEmpty = this.state.foodType != 'all' && this.state.foodType != null;
+                // lodash o nazwie filter sluzy do przeskanowania informacji i 
+                // w tym wypadku po wybraniu konkretnego typu kuchni
+                // do wyswietleni listy
 
+                // dokumentacja lodash : https://lodash.com/docs/4.17.10
+
+                // jesli na liscie naszych restauracji jest taka
+                // ktora serwuje podany typ jedzenia 
+                // poprzez przefiltrowanie odnajdz dany typ
+            
                 if (ifFoodTypePresentAndNotEmpty) {
-                    restaurantsFiltered = _.filter(restaurantsFiltered, { 'type': this.state.foodType });
+                    restaurants = _.filter(restaurants, { 'type': this.state.foodType });
                 } 
 
-                const listItems = restaurantsFiltered.map((restaurant) =>
+                // tworzy liste restauracji 
+                const listItems = restaurants.map((restaurant) =>
                     <li className="restaurant-li" key={restaurant.id}>
                         <RestaurantTag restaurant={restaurant} />
                     </li>
                 );
 
                 this.setState({
-                    restaurantListItems: listItems 
+                    restaurantListItems: listItems
                 });
             }),
             (error) => {

@@ -4,21 +4,23 @@ import _ from "lodash";
 import MenuTag from "./MenuTag";
 import MealMenu from "./MealMenu";
 
-class Restaurant extends React.Component {
 
+
+class Restaurant extends React.Component {
     constructor(input) {
         super(input);
          this.state = {
             menuListItems: null,
-            mealType: input.match.params.mealType
+            mealType: input.match.params.mealType,
+            restaurantId: input.match.params.restaurantId
         };
-
-        fetch("http://localhost:56423/api/menu")
+     debugger;
+        fetch("http://localhost:56423/api/menu/" + this.state.restaurantId )
             .then(res => res.json())
-            .then((menuFiltered) => {
-                    menuFiltered = _.filter(menuFiltered, { 'mealType': this.state.mealType });
-
-                const listItems = menuFiltered.map((menu) =>
+            .then((menuItems) => {
+                menuItems = _.filter(menuItems, { mealType: this.state.mealType });
+           
+                const listItems = menuItems.map((menu) =>
                     <li className="menu-li" key={menu.id}>
                         <MenuTag menu={menu} />
                     </li>
@@ -35,6 +37,7 @@ class Restaurant extends React.Component {
 
     render() {
         return (
+
             <div> <MealMenu />
                 <div className="menu">
                     <ul className="menu-listitems">{this.state.menuListItems}</ul>

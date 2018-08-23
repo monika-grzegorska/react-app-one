@@ -3,8 +3,9 @@ import styles from "./css/MenuTag.css";
 
 function MenuTag(input) {
     var menu = input.menu;
-
     return (
+        // Komponent odnosi sie do konkretnej potrawy z menu
+
         <div className="menu-tag">
             {/*LEFT SIDE*/}
             <div className="menu-left">
